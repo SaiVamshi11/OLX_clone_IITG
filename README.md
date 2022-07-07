@@ -25,13 +25,16 @@ Users are directed to login page on opening the website. Users have to login usi
 - Marks product as sold if deal is made
 
 ## Login page
-The web application is authenticated and user must sign in using Outlook Id
+- The web application is authenticated and user must sign in using Outlook Id.
 ![image](https://user-images.githubusercontent.com/95306028/177820740-33b49604-b1b1-4285-bc41-9b9a5bf5b1ce.png)
 
 ## Home page
-After login the home page will be displayed, where user can choose to buy or sell items
+- After login the home page will be displayed, where user can choose to buy or sell items.
 ![image](https://user-images.githubusercontent.com/95306028/177821314-90828c2c-6ef6-4644-9729-df123930b31c.png)
 
+## Buyer Homepage
+- After clicking **Buy** all categories which are available are displayed. User can also search for required item in search bar.
+- ![image](https://user-images.githubusercontent.com/95306028/177822127-24dc0e68-a317-44a9-b789-185603617e83.png)
 
 
 
