@@ -14,3 +14,12 @@ Users are directed to login page on opening the website. Users have to login usi
 - HTML
 - CSS
 - Javascript
+
+## Key Features
+- User can login and logout using Outlook Id
+- Functionality to buy and sell
+- Seller Profile Containing all the products he want to sell and stats of every deal he made, like people who are interested with listed  money
+- Search functionality for buyer and filter method to get his wanted product within the desired price range
+- Product details along with buyer details
+- Option to  agree to listed deal or to reach out seller for some negotiation for a particular product
+- Marks product as sold if deal is made
