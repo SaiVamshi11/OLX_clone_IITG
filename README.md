@@ -1,7 +1,4 @@
 # OLX_clone_IITG
-Welcome to the Project of OLX_clone website for IITG.
-This Project is collectively being done by
-1) K Sai Vamshi
-2) M Sai Teja
-3) B Lokesh Apparao
-4) B Sri Vidya
+## About the website
+Users are directed to login page on opening the website. Users have to login using their Outlook Id. Later user will be directed to home page of the website where two buttons will be displayed. Here user can choose whether to buy or sell and based on that available categories will be diplayed. Profile shows logged in users profile. Logout button logs out the user.
+
