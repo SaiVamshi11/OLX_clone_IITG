@@ -23,3 +23,19 @@ Users are directed to login page on opening the website. Users have to login usi
 - Product details along with buyer details
 - Option to  agree to listed deal or to reach out seller for some negotiation for a particular product
 - Marks product as sold if deal is made
+
+## Login page
+The web application is authenticated and user must sign in using Outlook Id
+![image](https://user-images.githubusercontent.com/95306028/177820740-33b49604-b1b1-4285-bc41-9b9a5bf5b1ce.png)
+
+## Home page
+After login the home page will be displayed, where user can choose to buy or sell items
+![image](https://user-images.githubusercontent.com/95306028/177821314-90828c2c-6ef6-4644-9729-df123930b31c.png)
+
+
+
+
+
+
+
+
