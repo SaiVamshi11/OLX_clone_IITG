@@ -34,7 +34,8 @@ Users are directed to login page on opening the website. Users have to login usi
 
 ## Buyer Homepage
 - After clicking **Buy** all categories which are available are displayed. User can also search for required item in search bar.
-- ![image](https://user-images.githubusercontent.com/95306028/177822127-24dc0e68-a317-44a9-b789-185603617e83.png)
+- ![image](https://user-images.githubusercontent.com/95306028/177822651-b505f91e-2f11-4826-951c-e6e6e0560d97.png)
+
 
 
 
