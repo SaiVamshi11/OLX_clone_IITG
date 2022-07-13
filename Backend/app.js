@@ -79,12 +79,12 @@ app.use(cors({
 }))
 
 if (keys.useMongoDBSessionStore.useMongoDBSessionStore) {
-    mongoose.connect('mongodb://localhost/User');
+    mongoose.connect(keys.DbURI.dburi);
     app.use(expressSession({
       secret: 'secret',
       cookie: {maxAge: 24 * 60 * 60 * 1000},
       store:  MongoStore.create({
-        mongoUrl:'mongodb://localhost/User',
+        mongoUrl:keys.DbURI.dburi,
         clear_interval: 24 * 60 * 60
       })
     }));
@@ -148,9 +148,8 @@ app.post('/auth/outlook/callback', (req, res, next) => {
 app.get('/auth/logout', (req, res)=>{
   req.session.destroy((err) => {
     req.logout();
-      res.redirect(keys.destroySessionUrl.destroySessionUrl);
+    res.redirect(keys.destroySessionUrl.destroySessionUrl);
   })
-    
 });
 
 const PORT = process.env.PORT || 5000
