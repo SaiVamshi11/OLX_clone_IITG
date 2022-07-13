@@ -37,12 +37,21 @@ function App() {
     }
     getUser();
   }, [])
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+  
+    // Wait for 3 seconds
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 500);
+  }, []);
 
   return (
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Splash />} />
+        <Route path="/" element={isLoading ? <Splash /> : <Navigate to={'/auth/login'}/>} />
           <Route path="/auth/login" element={user ? <Navigate to={'/home'} /> : <Login/>} />
         </Routes>
         {/* < Splash /> */}
