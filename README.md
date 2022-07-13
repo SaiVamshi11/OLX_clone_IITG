@@ -4,6 +4,8 @@ Users are directed to login page on opening the website. Users have to login usi
 
 ## Environment Setup Locally
 - Install React
+- Use npm install in both Backend and Client 
+- after installing go to Backend/node_modules/passport/lib/sessionmanager.js:64 and remove cb in return statement
 - ...
 
 ## Tech Stack Used
