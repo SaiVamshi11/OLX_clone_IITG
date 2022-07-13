@@ -1,4 +1,68 @@
-@media only screen and (max-width: 600px){
+.logo_{
+    width: 15%;
+    float: left;
+}
+.campus{
+    width: 40%;
+    border-radius: 25px;   
+    float: right; 
+}
+.img1
+{
+    margin-top: 25%;
+    width:20%;
+    position: relative;
+    left: 45%;
+    transform:rotate(-3deg) ;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.forgot{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: inherit;
+    font-size: 30px;
+    font-weight: 400;
+}
+.contact
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.topicon1
+{
+    font-size: 40px;
+    cursor: pointer;
+    margin-right: 5%;
+}
+.topicon2{
+    font-size: 40px;
+}
+
+
+ @media only screen and (max-width: 550px){
+    .logo_{
+        float: left;
+        width: 30%;
+    }
+    .campus{
+        width: 50%;
+        border-radius: 25px;   
+        float: right; 
+    }
+    .img1{
+        width: 50%;
+        position: relative;
+        left: 15%;
+    }
+}
+
+
+/* @media only screen and (max-width: 600px){
     .main{
         width: 90%;
         height: 80%;
@@ -184,4 +248,4 @@
         cursor: pointer;
         font-size: 40px;
     }
-}
+} */

@@ -21,7 +21,7 @@ const Login = () => {
       </div>
       <img className="img1" src={img1} alt="" />
       <div className="button" onClick={outlook}>
-        <Button styles={{ padding:'12% 8%' , font:'Montserrat'}} text={<b><h2>Login</h2></b>} />
+        <Button styles={{ padding:'40% 15%' , font:'Montserrat'}} text={<b><h2>Login</h2></b>} />
        </div>
           <a className="forgot" href=""><i>Forgot Password</i></a> 
           <div className="contact">
